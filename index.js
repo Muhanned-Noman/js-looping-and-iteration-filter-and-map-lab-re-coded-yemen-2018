@@ -4,3 +4,8 @@ function driversWithRevenueOver(array, string){
     return elment.revenue > string;
   });
 };
+function driverNamesWithRevenueOver(array, string){
+  return driversWithRevenueOver(array, string).map(function(elment){
+    return elment.[name];
+  });
+};
