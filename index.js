@@ -9,3 +9,14 @@ function driverNamesWithRevenueOver(array, string){
     return elment.name;
   });
 };
+function exactMatch(array, obj){
+  return array.filter(function(elment){
+    let flag = false;
+    for(onst key in obj){
+      if(elment[key] === obj[key]){
+        flag = true;
+      };
+    };
+    return flag;
+  });
+};
