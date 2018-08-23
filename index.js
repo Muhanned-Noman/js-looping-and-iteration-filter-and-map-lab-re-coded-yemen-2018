@@ -12,7 +12,7 @@ function driverNamesWithRevenueOver(array, string){
 function exactMatch(array, obj){
   return array.filter(function(elment){
     let flag = false;
-    for(onst key in obj){
+    for(const key in obj){
       flag = elment[key] === obj[key];
     }
     return flag;
