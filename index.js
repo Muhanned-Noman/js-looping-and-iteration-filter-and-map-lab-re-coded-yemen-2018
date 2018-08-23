@@ -18,3 +18,8 @@ function exactMatch(array, obj){
     return flag;
   });
 };
+function exactMatchToList (array, obj) {
+  return exactMatch(array, obj).map(function (elment) {
+      return elment.name;
+    });
+}
