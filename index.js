@@ -13,10 +13,8 @@ function exactMatch(array, obj){
   return array.filter(function(elment){
     let flag = false;
     for(onst key in obj){
-      if(elment[key] === obj[key]){
-        flag = true;
-      }
+      flag = elment[key] === obj[key];
     }
     return flag;
-  })
+  });
 };
