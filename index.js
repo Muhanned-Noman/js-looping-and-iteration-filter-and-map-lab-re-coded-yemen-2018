@@ -6,6 +6,6 @@ function driversWithRevenueOver(array, string){
 };
 function driverNamesWithRevenueOver(array, string){
   return driversWithRevenueOver(array, string).map(function(elment){
-    return elment.[name];
+    return elment.name;
   });
 };
