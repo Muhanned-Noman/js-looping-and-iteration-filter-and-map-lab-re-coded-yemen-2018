@@ -15,8 +15,8 @@ function exactMatch(array, obj){
     for(onst key in obj){
       if(elment[key] === obj[key]){
         flag = true;
-      };
-    };
+      }
+    }
     return flag;
   });
 };
