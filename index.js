@@ -18,5 +18,5 @@ function exactMatch(array, obj){
       }
     }
     return flag;
-  });
+  })
 };
